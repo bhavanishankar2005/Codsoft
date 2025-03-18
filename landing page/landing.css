@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    padding: 20px;
+    border: solid black 1px;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header nav {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section.hero {
+    background-image: url(pngtree-coconut-palm-tree-baner-summer-image_16219307.jpg);
+    background-size: cover;
+    background-position: center;
+    color: wheat;
+    text-align: center;
+    padding: 80px 0;
+}
+
+section.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section.hero a {
+    background-color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section.features {
+    display: flex;
+    flex-direction: row;
+    padding: 55px 0;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+section.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+section.features .feature h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section.features .feature p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.feature1, .feature2, .feature3 {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+}
+
+.feature1 {
+    background-image: url(coconut-copra.jpg);
+    width: 320px;
+    height: 300px;
+}
+
+.feature2 {
+    background-image: url(images.jpeg);
+    width: 300px;
+    height: 300px;
+}
+
+.feature3 {
+    background-image:url(shell.jpeg);
+    width: 300px;
+    height: 300px;
+}
